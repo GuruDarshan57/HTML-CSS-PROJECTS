@@ -1,0 +1,326 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto Mono', monospace;
+}
+nav{
+    width:95vw;
+    margin:10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    position: sticky;
+    top:10px
+}
+
+.toggle button{
+    background-color: white;
+    width:40px;
+    height:40px;
+    border:solid 2px black;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px black;
+    margin-right: 10px;
+    
+}
+
+.toggle button img{
+    height:35px;
+    width:30px;
+}
+
+.top_con{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero_png img{
+    max-width:500px;
+    max-height:500px;
+}
+.content{
+    max-width:500px;
+    padding: 20px;
+}
+
+.con_top{
+    margin-top: 20px;
+    width:250px;
+    border:solid 2px black;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(132, 241, 132);
+    box-shadow: 2px 2px 4px black;
+    border-radius: 4px;
+}
+.con_mid h1{
+    font-size: 60px;
+    margin-top: 20px;
+}
+.con_mid p{
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 25px;
+}
+.con_bottom button{
+    width: 150px;
+    padding:10px;
+    font-size: 15px;
+    border: solid 2px black;
+    border-radius: 4px;
+    background-color: rgb(239, 192, 105);
+    box-shadow: 2px 2px 4px black;
+}
+.con_bottom button:hover{
+    background-color: black;
+    color: white;
+}
+
+.cards{
+    width:310px;
+    height:110px;
+    padding:10px;
+    display: flex;
+    gap:25px;
+    place-items: center;
+}
+.cards:hover{
+    box-shadow: 2px 2px 4px grey;
+}
+
+.bottom_con{
+    min-height:200px;
+    margin-top: 30px;
+    display:flex;
+    flex-wrap: wrap;
+    gap:50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards p{
+    margin-top: 5px;
+    line-height: 20px;
+}
+hr{
+    width:90vw;
+    height:1px;
+    margin:20px auto;
+    border-radius: 3px;
+    background-color:grey;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.con{
+    margin-top: 20px;
+    text-align: center;
+}
+.con button{
+    width:150px;
+    height:40px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border: solid 2px black;
+    border-radius: 4px;
+    background-color: rgb(132, 247, 132);
+    box-shadow: 2px 2px 4px black;;
+}
+.con h2{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.collage{
+    margin: 0 20px;
+    margin-top:40px;
+    max-width: 880px;
+    max-height:630px;
+    display: grid;
+    grid-template-areas: "img1 img1 img2 img3"
+    "img1 img1 img2 img7"
+    "img4 img5 img6 img7";
+    gap: 20px;
+}
+.img_col1{
+    grid-area: img1;
+}
+.img_col2{
+    grid-area: img2;
+}
+.img_col3{
+    grid-area: img3;
+}
+.img_col4{
+    grid-area: img4;
+}
+.img_col5{
+    grid-area: img5;
+}
+.img_col6{
+    grid-area: img6;
+}
+.img_col7{
+    grid-area: img7;
+}
+
+.img_col1 img{
+    max-height: 400px;
+    max-width:440px;
+}
+.img_col2 img{
+    max-width:200px;
+    max-height:400px;
+    
+}
+.img_col3 img{
+    max-width:200px;
+    max-height:200px;
+}
+.img_col4 img{
+    max-width:200px;
+    max-height:200px;
+}
+.img_col5 img{
+    max-width:200px;
+    max-height:200px;
+}
+.img_col6 img{
+    max-width:200px;
+    max-height:200px;
+}
+.img_col7 img{
+    max-width:200px;
+    max-height:400px;
+}
+
+.collage div img{
+    border-radius: 6px;
+}
+
+.three{
+    min-height:300px;
+    background-color: antiquewhite;
+    margin-top: 20px;
+}
+.three_con{
+    min-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+.logo{
+    margin-right: 20px;
+}
+.links,.support,.join{
+    padding:10px;
+    margin: 10px;
+    margin-top: 40px;
+}
+.links li,.support li{
+    list-style: none;
+    margin-top: 5px;
+}
+.links a,.support a{
+    text-decoration: none;
+    color: black;
+}
+
+.links h4,.support h4,.join h4{
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.logos{
+    display: flex;
+    gap:10px;
+    margin-top: 10px;
+}
+.logo{
+    font-size: 20px;
+    place-self: center;
+}
+.join h4{
+    margin-bottom: 10px;
+}
+#newsletter{
+    margin-bottom: 10px;
+}
+input{
+    padding:5px 10px;
+    border-radius: 4px;
+}
+#submit{
+    background-color: rgb(241, 171, 143);
+    box-shadow: 2px 2px 4px black;
+}
+
+@media (max-width:1189px){
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media(max-width:927px){
+    .collage{
+        grid-template-areas: "img1 img3 img2"
+        "img7 img5 img2"
+        "img7 img6 img4";
+    }
+    .img_col1 img{
+        height: 100px;
+        width:100px;
+    }
+    .img_col2 img{
+        width:100px;
+        height:230px;
+        
+    }
+    .img_col3 img{
+        width:100px;
+        height:100px;
+    }
+    .img_col4 img{
+        width:100px;
+        height:100px;
+    }
+    .img_col5 img{
+        width:100px;
+        height:100px;
+    }
+    .img_col6 img{
+        width:100px;
+        height:100px;
+    }
+    .img_col7 img{
+        width:100px;
+        height:230px;
+    }
+
+}
+@media(max-width:519px){
+    .hero_png img{
+        height: 300px;
+        width: 300px;
+    }
+    .three_con{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+   
+    .logos{
+        justify-content: center;
+    }
+}

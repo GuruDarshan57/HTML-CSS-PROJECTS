@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job-Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Job-Application</h1>
+        <h4>Web-Developer</h4>
+        <form action="mail" method="mailto">
+            <div class="form-container">
+                <div class="form-elements">
+                    <label for="fname">
+                        First Name
+                    </label>
+                    <input type="text" id="fname" name="First-Name">
+                </div>
+                <div class="form-elements">
+                    <label for="lname">
+                        Last Name
+                    </label>
+                    <input type="text" id="lname" name="Last-Name">
+                </div>
+                <div class="form-elements">
+                    <label for="email">
+                        Email
+                    </label>
+                    <input type="email" id="email" name="E-Mail">
+                </div>
+                <div class="form-elements">
+                    <label for="role">
+                        Select Job
+                    </label>
+                    <select name="Job-Role" id="role">
+                        <option value="">Select Job Role</option>
+                        <option value="Frontend">Front-End</option>
+                        <option value="Backend">Back-End</option>
+                        <option value="Fullstack">Full-Stack</option>
+                    </select>
+                </div>
+                <div class="address">
+                    <label for="fname">
+                        Address
+                    </label>
+                    <textarea name="Address" id="address" cols="89" rows="5"></textarea>
+                </div>
+                <div class="form-elements"><label for="city">
+                        City
+                    </label>
+                    <input type="text" id="city" name="City">
+                </div>
+                <div class="form-elements">
+                    <label for="pincode">
+                        Pin-Code
+                    </label>
+                    <input type="text" id="pincode" name="Pincode">
+                </div>
+                <div class="form-elements"><label for="start-date">
+                        Start Date
+                    </label>
+                    <input type="date" id="start-date" value="2023-11-07" name="Start-Date">
+                </div>
+                <div class="form-elements file"><label for="file">
+                        Upload Resume
+                    </label>
+                    <input type="file" id="file" Nmae="Resume">
+                </div>
+                <div class="button submit">
+                    <input type="submit" value="Submit">
+                </div>
+                <div class="button reset">
+                    <input type="reset" value="Reset">
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+</body>
+
+</html>

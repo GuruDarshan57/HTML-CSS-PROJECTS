@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Roboto;
+}
+
+.acheivements h4{
+    font-size: 20px;
+    margin-top: 3dvh;
+}
+
+.ach-list{
+    margin:20px 0px 0px 18px;
+    line-height: 30px;
+}
+
+.bio h4{
+    margin-top: 30px;
+    font-style: 15px;
+}
+
+.bio p{
+    margin-top: 20px;
+    font-style:20px ;
+    text-align: justify;
+}
+.container{
+    background-color:rgb(189, 252, 232);
+    min-height:100vh;
+    border:solid 10px #1D1E4C;
+    padding:20px;
+}
+
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.footer{
+    margin:30px 0 30px 0 ;
+    text-align: right;
+}
+.footer a{
+    text-decoration: none;
+}
+
+
+.image img{
+    height:200px;
+    width:150px;
+    border:solid 5px black;
+    border-radius: 50%;
+}
+
+.name-year h1{
+    font-size: 40px;
+}
+
+.name-year h4{
+    font-size: 15px;
+    text-align: end;
+}
+
+.others{
+    margin:30px auto;
+}
+
+.others a{
+    text-decoration: none;
+}
+.top-container{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+@media(max-width:410px){
+    .top-container{
+        justify-content: center;
+        gap:30px;
+        text-align: center;
+    }
+    .name-year h4{
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+}

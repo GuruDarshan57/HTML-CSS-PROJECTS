@@ -1,0 +1,189 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.one{
+    height: 100vh;
+    background-image: url(images/developer.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(221, 235, 245);
+    background-attachment: fixed;
+}
+
+.one_one{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25vw;
+    padding: 20px;
+    padding-bottom: 0;
+    letter-spacing: 5px;
+}
+.one_one h1{
+    font-size: 50px;
+}
+
+.one_one h4{
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+.one_two{
+    margin-left: 25vw;
+    padding: 20px;
+    padding-top: 5px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-size:50px ;
+}
+
+.two{
+    min-height: 200px;
+    background-color:rgb(0, 0, 0);
+    color: rgb(205, 234, 242);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 5px;
+}
+
+.two_one{
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 20px;
+    padding-right: 0;
+}
+.two_two{
+    font-size: 60px;
+    align-self: self-start;
+    margin: 30px;
+}
+
+.three{
+    min-height:550px;
+    background-image: url(images/dev.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.three_con{
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+
+
+}
+
+.item1,.item2,.item3{
+    width:275px;
+    height:400px;
+    margin: 30px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.466);
+    color: white;
+}
+
+.img1,.img2,.img3{
+    background-color: aqua;
+    height: 180px;
+    border-radius: 20px;
+}
+
+.img1{
+    background-image: url(images/web.png);
+}
+.img2{
+    background-image: url(images/mobile.png);
+}
+.img3{
+    background-image: url(images/uiux.png);
+}
+
+.con{
+    padding: 20px 30px;
+}
+.con h4{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+.con h6{
+    font-size: 15px;
+    text-align: justify;
+}
+.four{
+    min-height:200px;
+}
+
+.four_con{
+    min-height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+}
+
+.four1,.four2{
+    margin:20px 10px;
+    padding: 20px 30px;
+    width:550px;
+    height: 200px;
+    background-color: rgba(141, 242, 225, 0.181);
+    color:white;
+    border-radius: 4px;
+}
+
+.four h4{
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.four p{
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+
+@media(max-width:1376px){
+    .one_one,.one_two{
+        margin-left: 20px;
+    }
+}
+@media(max-width:1376px){
+    .one_one h1,.one_two h3{
+        font-size: 35px;
+    }
+    .one_one h4{
+        font-size: 10px;
+    }
+    
+}
+
+@media(max-width:780px){
+    .two_one{
+        font-size: 10px;
+    }
+    .two_two{
+        font-size: 30px;
+        margin-top: 60px;
+    }
+}
+@media(max-width:427px){
+    .two_two{
+        margin-top: 20px;
+    }
+}
